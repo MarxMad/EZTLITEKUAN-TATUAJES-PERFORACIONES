@@ -1,0 +1,155 @@
+nav{
+	height: 110px;
+	/* border-style: solid;
+	border-color: black; */
+	background-color:#000000;
+	margin-top: 0px;
+}
+
+#GIFS{
+	background-image: url(../img/TATOOINDEX.jpg);
+	background-size: cover;
+	/* border-style: solid;
+	border-color: black; */
+	margin-bottom: 0px;
+
+	
+
+}
+.titulo{
+	font-size: 32px;
+}
+
+
+ 
+nav li a{	
+    font-family: 'Trade Winds', cursive;
+	
+	/*font-family: 'Bungee Shade', cursive;*/
+}
+#atari, #nintendo, #portatiles, #xbox, #playstation, #retro{
+	color:#fafafa ;
+	padding: 10;
+	font-size: 18px;
+	
+}
+#VAR{
+	font-size: 25px;
+}
+.inicio{
+	width: 100%;
+	
+}
+
+/* #promociones{
+	width: 355px;
+} */
+
+#promocion-1, #promocion-2{
+	width: 355px;
+}
+
+/*nav ul li a .contenido{
+	color:white;
+}*/
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	
+	font-family: 'Federant', cursive;
+	background-color:#fafafa;
+}
+
+main {
+	flex: 1 0 auto;
+}
+.sidenav{
+	background-color:#c62828 ;
+	
+	font-family: 'Audiowide', cursive;
+
+	
+}
+#mobile-demo li a{
+	font-size: 18px;
+	color:#fafafa;
+
+
+}
+/* .row a img{
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+} */
+
+.btn{
+	
+	margin: 10px;
+}
+
+.card-image img{
+	padding: 10px;
+
+}
+
+.sidenav-trigger{
+	color:#fafafa  ;
+}
+.comprar:hover{
+	color: #1a237e;
+	font-size: 25px;
+}
+
+.ventas{
+	width: 300px;
+}
+
+
+.youtube iframe {
+	width: 100vw;
+	
+
+}
+footer, h5 {
+	/*font-family: 'Press Start 2P', cursive;
+	font-family: 'Rock Salt', cursive;*/
+	font-family: 'Righteous', cursive;
+	font-size: 35px;
+
+}
+
+#logo{
+	text-align: center;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+/* footer */
+
+.page-footer{
+	background-color: #b71c1c;
+	
+}
+.card-title{
+	font-size: 10px;
+}
+
+
+
+h5{
+	font-size: 20px;
+}
+
+p{
+	color: black;
+}
+
+
+
+
+
+

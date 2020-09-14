@@ -1,0 +1,25 @@
+/* Extra smal- celulares*/
+@media only screen and (max-width: 600px){
+	
+}
+
+/* small - Celulares más grandes, taletas*/
+@media only screen and (min-width: 600px){
+
+}
+
+/*medium - Tablets landscape*/
+@media only screen and ( min-width: 768px){
+	
+}
+
+/*large - Laptops o computadoras de Escritorio */
+@media only screen and (min-width: 992px){
+		
+}
+
+/* Extra large screen*/
+
+@media only screen and (min-width: 1200px){
+		
+}
