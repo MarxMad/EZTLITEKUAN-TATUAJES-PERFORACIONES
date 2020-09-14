@@ -35,6 +35,9 @@
         currency: 'mxn',
     });
 </script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="SWhFy3Me"></script>
 <!-- Facebook Pixel Code -->
 <script>
     !function(f,b,e,v,n,t,s)
@@ -56,13 +59,14 @@
         
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="bXEgk2DW"></script>
-
+        
         <body>	           
             <header>						
                 <!-- barra de navegacion -->
                 <nav>						
                     <div class="nav-wrapper  center">							
                         <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-small"><i class="large material-icons">storage</i></a>
+
                         <div class="show-on-small">
                             <h4 class="titulo">
                                 EZTLI TEKUAN TATUAJES Y PERFORACIONES
@@ -74,438 +78,390 @@
                             <li><a  href="atari.html" data-target="dropdown5" id="retro">DISEÑOS</a></li>                
                             
                             <li><a  href="atari.html" data-target="dropdown5" id="retro">AGENDA TU CITA</a></li>                                
-                           	
+                            
                             
                             <li><a  href="sega.html" data-target="" id="retro">NOSOTROS<i class="material-icons right"></i></a></li>
-
-
+                            
+                            
                             <li><a  href="atari.html" data-target="dropdown5" id="retro">PROMOCIONES</a></li>      
-
+                            
                             
                             <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown4" id="playstation">AGENDA TU CITA</a></li>
-                            <ul id="dropdown4" class="dropdown-content ">
-                                <li><a href="citas.html" class=" red-text text-darken-4">citas</a></li>
-                                 	                    
-                                
-                            </ul> -->
-                        </ul>
-                        
-                    </div>
-                </nav> 
-                
-                
-                <div class="row container-fluid center "  id="GIFS">
-                    
-                    <div > 
-                        
-                        <a href="index.html" class="brand-logo ">
-                            <img src="public/img/" id="logo" class="responsive-image ">
-                        </a>								
-                        
-                    </div >					
-                    
-                    <form class="col s12 ">
-                        <div class="row">							
+                                <ul id="dropdown4" class="dropdown-content ">
+                                    <li><a href="citas.html" class=" red-text text-darken-4">citas</a></li>
+                                    
+                                    
+                                </ul> -->
+                            </ul>
                             
-                            <!-- Modal Structure -->
-                            <div id="modal1" class="modal">
-                                <div class="modal-content">
-                                    <h6 class="header white red-text text-darken-3 center">YA CASI TIENES TU REGALO!!</h6>
-                                    <h6 class="header white black-text text-darken-3 center">Completa tus datos </h6>
-                                    <div class="input-field col s6">
-                                        <i class="material-icons prefix">account_circle</i>
-                                        <input id="icon_prefix" type="text" class="validate">
-                                        <label for="icon_prefix">Nombre</label>
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <i class="material-icons prefix">email</i>
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email">E-mail</label>
-                                        <span class="helper-text" data-error="error" data-success="perfecto"></span>
-                                        <a id = "submit" class="waves-effect waves-light btn " >Enviar<i class="material-icons right">send</i></a>
+                        </div>
+                    </nav> 
+                    
+                    
+                    <div class="row container-fluid center "  id="GIFS">
+                        
+                        <div > 
+                            
+                            <a href="index.html" class="brand-logo center ">
+                                <img src="public/img/logo.jpeg" id="logo" class="responsive-image ">
+                            </a>								
+                            
+                        </div >					
+                        
+                        <form class="col s12 ">
+                            <div class="row">							
+                                
+                                <!-- Modal Structure -->
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                        <h6 class="header white red-text text-darken-3 center">YA CASI TIENES TU REGALO!!</h6>
+                                        <h6 class="header white black-text text-darken-3 center">Completa tus datos </h6>
+                                        <div class="input-field col s6">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Nombre</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <i class="material-icons prefix">email</i>
+                                            <input id="email" type="email" class="validate">
+                                            <label for="email">E-mail</label>
+                                            <span class="helper-text" data-error="error" data-success="perfecto"></span>
+                                            <a id = "submit" class="waves-effect waves-light btn " >Enviar<i class="material-icons right">send</i></a>
+                                            
+                                        </div>
+                                        
                                         
                                     </div>
                                     
-                                    
                                 </div>
                                 
+                                <!-- Modal Trigger -->
+                                <a class="waves-effect waves-light btn modal-trigger black" href="#modal1">Registrate y obtén un tatuaje gratis<i class="material-icons right">card_giftcard</i></a>
                             </div>
-                            
-                            <!-- Modal Trigger -->
-                            <a class="waves-effect waves-light btn modal-trigger black" href="#modal1">Registrate y obtén un regalo<i class="material-icons right">card_giftcard</i></a>
-                        </div>
-                    </form>
-                    <!-- </div>			
-                    </div> -->
-                </div>
-                <!-- menu movil -->
-                
-                <ul class="sidenav" id="mobile-demo">					
-                    
-                    
-                    
-                    
-                    <li><a href="atari.html" class=" grey-text text-lighten-5">Atari </a></li>
-                    
-                    <li class="divider" tabindex="-1"></li>
-                    
-                    <li><a href="nintendones.html" class="grey-text text-lighten-5">Nintendo Nes <span class="new badge">1</span></a></li>
-                    <li><a href="nintendoGT.html" class="grey-text text-lighten-5">Gameboy Tabique </a></li>	
-                    <li><a href="nintendosupernes.html" class="grey-text text-lighten-5">Super NES</a></li>
-                    <li><a href="nintendon64.html" class="grey-text text-lighten-5">Nintendo 64</a></li>
-                    <li><a href="nintendoGC.html" class="grey-text text-lighten-5">Gameboy Color </a></li>
-                    <li><a href="nintendogamecube.html" class="grey-text text-lighten-5">Gamecube</a></li>
-                    <li><a href="nintendoGA.html" class="grey-text text-lighten-5">Gameboy Advance </a></li>					
-                    <li><a href="nintendo3DS.html" class="grey-text text-lighten-5">Nintendo 3DS</a></li>
-                    <li><a href="nintendoDS.html" class="grey-text text-lighten-5">Nintendo DS</a></li>				
-                    <li><a href="nintendowii.html" class="grey-text text-lighten-5">Nintendo WII</a></li>	
-                    <li><a href="nintendoswitch.html" class="grey-text text-lighten-5">Nintendo Switch </a></li>
-                    
-                    <li class="divider" tabindex="-1"></li>
-                    
-                    <li><a href="sega.html" class="grey-text text-lighten-5">SEGA </a></li>	
-                    
-                    <li class="divider" tabindex="-1"></li>
-                    
-                    
-                    <li><a href="playstation1.html" class=" grey-text text-lighten-5">PS 1 <span class="new badge">1</span></a></li>
-                    <li><a href="playstation2.html" class=" grey-text text-lighten-5">PS 2</a></li>
-                    <li><a href="playstation3.html" class=" grey-text text-lighten-5">PS 3   <span class="new badge">2</span></a></li>	
-                    <li><a href="playstation4.html" class=" grey-text text-lighten-5">PS 4 </a></li>	
-                    <li><a href="portatilesPSP.html" class="grey-text text-lighten-5">PSP </a></li>	
-                    
-                    <li class="divider" tabindex="-1"></li>
-                    
-                    
-                    <li><a href="xbox360.html" class=" grey-text text-lighten-5">XBOX 360 <span class="new badge">4</span></a></li>
-                    <li><a href="xboxclasico.html" class="grey-text text-lighten-5">XBOX Clásico</a></li>
-                    <li><a href="xboxone.html" class="grey-text text-lighten-5">XBOX ONE </a></li>	
-                    
-                    <li class="divider" tabindex="-1"></li>
-                    
-                    <li><a href="articuloscolecciones.html" class=" grey-text text-lighten-5">Coleccionables <span class="new badge">3</span></a></li>
-                    <li><a href="articulosdiscos.html" class="grey-text text-lighten-5">Discos </a></li>
-                    <li><a href="articuloslibros.html" class="grey-text text-lighten-5">Libros</a></li>	
-                    <li><a href="articulostarjetas.html" class="grey-text text-lighten-5">Tarjetas</a></li>					
-                    <li><a href="articulostazos.html" class="grey-text text-lighten-5">Tazos</a></li>
-                    
-                    
-                    
-                </ul>   
-                
-                
-            </header>
-            
-            <!-- </div> -->
-            
-            
-            <main>
-                
-                <!-- <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large yellow darken-2">
-                        <i class="large material-icons left ">videogame_asset</i>
-                    </a>
-                    <ul>
-                        <li><a class="btn-floating red" href="nosotros.html"><i class=" large material-icons">location_on</i></a></li>
-                        
-                        <li><a class="btn-floating green" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..."><i class="material-icons">message</i></a></li>
-                        <li><a class="btn-floating blue" href="preguntas.html"><i class="material-icons">info</i></a></li>
-                    </ul>
-                </div> -->
-                
-                <!-- paralalx1 -->
-                <div class="row container-fluid">
-                    
-                    
-                    <!-- ventas por whatsapp -->
-                    
-                    <div class="col s6 m6 l6  yellow darken-3">
-                        <h6 class=" white-text center">
-                            Ventas Por Mercado Libre 									
-                        </h6>
+                        </form>
+                        <!-- </div>			
+                        </div> -->
                     </div>
+                    <!-- menu movil -->
+                    
+                    <ul class="sidenav" id="mobile-demo">					
+                        
+                        
+                        
+                        
+                        <li><a href="atari.html" class=" grey-text text-lighten-5">TATUAJES</a></li>
+                        
+                        <li class="divider" tabindex="-1"></li>
+                        
+                        <li><a href="nintendones.html" class="grey-text text-lighten-5">PERFORACIONES <span class="new badge">1</span></a></li>
+                        
+                        
+                        <li class="divider" tabindex="-1"></li>
+                        
+                        <li><a href="sega.html" class="grey-text text-lighten-5">NOSOTROS </a></li>	
+                        
+                        <li class="divider" tabindex="-1"></li>
+                        
+                        
+                        <li><a href="playstation1.html" class=" grey-text text-lighten-5"> MATERIALES Y ROPA <span class="new badge">1</span></a></li>
+                     
+                        
+                        <li class="divider" tabindex="-1"></li>
+                        
+                        
+                        <li><a href="xbox360.html" class=" grey-text text-lighten-5">AGENDA TU CITA <span class="new badge">4</span></a></li>
+                        
+                        
+                       
+                        
+                        
+                    </ul>   
                     
                     
+                </header>
+                
+                <!-- </div> -->
+                
+                
+                <main>
                     
-                    <div class="col s6 m6 l6 indigo darken-4" id="tiendas">
-                        <a href="nosotros.html" > 
-                            <h6 class=" grey-text text-lighten-5 center">
-                                Ventas Directo En Tienda					
-                            </h6>
+                    <!-- <div class="fixed-action-btn">
+                        <a class="btn-floating btn-large yellow darken-2">
+                            <i class="large material-icons left ">videogame_asset</i>
                         </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <!-- titulo de la seccion -->
-                <div class="section  black ">			
-                    <h3 class="header grey-text text-lighten-5 transparent center">PROMOCIONES</h3>
-                    <div class="row container">
-                        
-                        
-                        <div class="col s12 m6 l6">					
-                            <div class="card  grey lighten-5">
-                                <div class="card-image">
-                                    <a href="#">
-                                        <img class="responsive-image" src="public/img/Promociones/Gameboy_Color.jpeg">	
-                                    </a>								
-                                    
-                                    <span class="card-title  grey-text text-darken-3 "> </span>
-                                    
-                                </div>
-                                <div class="card-content">
-                                    <h5 class="red-text text-darken-3 transparent">Gameboy Color</h5>
-                                </div>
-                                <div class="card-action text">							
-                                    <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
-                                        <img src="public/img/whatsapplogo.png" width="35px">
-                                    </a>  
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l6">					
-                            <div class="card  grey lighten-5">
-                                <div class="card-image">
-                                    <a href="#">
-                                        <img class="responsive-image" src="public/img/Promociones/Wii_Retrocompatible.jpeg">	
-                                    </a>								
-                                    
-                                    <span class="card-title  grey-text text-darken-3 "></span>
-                                    
-                                </div>
-                                <div class="card-content">
-                                    <h5 class="red-text text-darken-3 transparent">Wii Retrocompatible </h5>
-                                </div>
-                                <div class="card-action text">							
-                                    <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
-                                        <img src="public/img/whatsapplogo.png" width="35px">
-                                    </a>  
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="parallax-container">
-                    <!-- parallax3 -->
-                    <div class="parallax"><img class="responsive-image" src="public/img/index/fondocontrol26.jpg"></div>
-                </div>
-                
-                
-                
-                <div class="section  black ">	
-                    <h3 class="header grey-text text-lighten-5 transparent center">NUESTROS PRODUCTOS</h3>
-                    <div class="row container">
-                        <!-- cards -->
-                        <div class="col s12 m6 l6">					
-                            <div class="card  grey lighten-5">
-                                <div class="card-image">
-                                    <a href="atari.html">
-                                        <img class="responsive-image" src="public/img/index/ATARIGIF.gif">	
-                                    </a>								
-                                    
-                                    <span class="card-title  grey-text text-darken-3 "></span>
-                                    
-                                </div>
-                                <div class="card-content">
-                                    <h5 class="red-text text-darken-3 transparent">DISEÑOS</h5>
-                                </div>
-                                <div class="card-action text">							
-                                    <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=5526621604&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
-                                        <img src="public/img/whatsapplogo.png" width="35px">
-                                    </a>  
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>                                
-                        <!-- cards -->
-                        <div class="col s12 m6 l6">					
-                            <div class="card  grey lighten-5">
-                                <div class="card-image">
-                                    <a href="atari.html">
-                                        <img class="responsive-image" src="public/img/index/NESGIF.gif">	
-                                    </a>								
-                                    
-                                    <span class="card-title  grey-text text-darken-3 "></span>
-                                    
-                                </div>
-                                <div class="card-content">
-                                    <h5 class="red-text text-darken-3 transparent">NINTENDO NES</h5>
-                                </div>
-                                <div class="card-action text">							
-                                    <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
-                                        <img src="public/img/whatsapplogo.png" width="35px">
-                                    </a>  
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>                                
-                    </div>
-                </div>
-                
-                
-                
-                <div class="parallax-container">
-                    <!-- parallax2 -->
-                    <div class="parallax"><img class="responsive-images" src="public/img/index/fondomundomario2.jpg"></div>
-                </div>
-                
-                
-                
-                <div class="section red darken-3">
-                    <!-- ofertas Especiales -->
-                    <h2 class="header   grey-text text-lighten-5 transparent center">CONOCE NUESTRAS TIENDAS   </h2>	 
-                </div>
-                
-                
-                
-                <div class="row container-fluid grey darken-3">
-                    <div class="col s12 m6 l4">
-                        
-                        <ul class="center">
-                            
-                            <a href="sucursalespericoapa.html" class="waves-effect waves-light btn red darken-3"><i class="material-icons left">location_on</i>Pericoapa</a>
-                            <br>
-                            <a href="sucursalesajusco.html" class="waves-effect waves-light btn red darken-3"><i class="material-icons left">location_on</i>Picacho Ajusco</a>
-                            <br>
-                            <a href="sucursaleshidalgo.html" class="waves-effect waves-light btn red darken-3"><i class="material-icons left">location_on</i>Miguel Hidalgo</a>
-                        </ul>
-                    </div>
-                    
-                    <div class="col s12 m6 l4 center">
-                        <h5 class="grey-text text-lighten-5"> Redes Sociales</h5>
                         <ul>
-                            <div class="g-ytsubscribe" data-channelid="UCwBZxYHlU1KYn0ZtrpQuUDQ" data-layout="full" data-theme="dark" data-count="default"></div>
-                            <div class="fb-like" data-href="https://www.facebook.com/Videojuegos-Armin-Retro-Ajusco-111814553935435/?modal=admin_todo_tour" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
-                            <a href="https://www.tiktok.com/@arminretro?lang=es" target="_blank" ><img src="public/img/logo_tiktok.jpg" width="50" >
-                                <a href="https://www.instagram.com/arminretroajusco/?hl=es-la" target="_blank" ><img src="public/img/insta.png" width="50" >										</a>
-                                
-                            </ul>
-                        </div> 
-                        
-                        <div class="col s12 m6 l4 center ">
-                            <h5 class="grey-text text-lighten-5"> Formas De Pago</h5>
-                            <ul>
-                                <img src="public/img/Visa_pago.jpg" width="50">
-                                <img src="public/img/master_pago.jpg" width="50">
-                                <img src="public/img/ae_pago.svg" width="50">
-                                <img src="public/img/mercado_pago.jpg" width="50">
-                                <img src="public/img/cash_pago.png" width="50">
-                                
-                            </ul>
+                            <li><a class="btn-floating red" href="nosotros.html"><i class=" large material-icons">location_on</i></a></li>
                             
-                        </div> 
-                    </div>
-                </div>
-                
-                
-                
-                <div class="parallax-container">
-                    <!-- parallax3 -->
-                    <div class="parallax"><img class="responsive-image" src="public/img/index/fondocontrol26.jpg"></div>
-                </div>
-                
-                
-            </main>
-            
-            <!-- footer -->
-            <footer class="page-footer mg-0">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col s6 m3 l3 "> 
-                            <h4 class="white-text"> Acerca de Armin Retro</h4>
+                            <li><a class="btn-floating green" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..."><i class="material-icons">message</i></a></li>
+                            <li><a class="btn-floating blue" href="preguntas.html"><i class="material-icons">info</i></a></li>
+                        </ul>
+                    </div> -->
+                    
+                  
+                    
+                    <!-- titulo de la seccion -->
+                    <div class="section  black ">			
+                        <h3 class="header grey-text text-lighten-5 transparent center">PROMOCIONES</h3>
+                        <div class="row container">
                             
-                            <h6 class="white-text ">Somos una empresa con más de 10 años de experiencia en la venta de Videojuegos. Tenemos una gran variedad de articulos de colección.
-                                Enviamos nuestros productos a toda la República Méxicana</h6>
-                        </div>							
-                        <div class="col s6 m3 l3">
-                            <div>
-                                <h4 class=""> Información</h4>
-                                <h6 > 
+                            
+                            <div class="col s12 m6 l6">					
+                                <div class="card  grey lighten-5">
+                                    <div class="card-image">
+                                        <a href="#">
+                                            <img class="responsive-image" src="public/img/Tatuaje-1.jpeg">	
+                                        </a>								
                                         
-                                    <li><a class="white-text "  href="nosotros.html">Nosotros </a></li>	<br>							
-                                    <li><a class="white-text "  href="preguntas.html">Preguntas Frecuentes </a></li><br>
-                                    <li><a class="white-text "  href="terminos.html">Términos y Condiciones </a></li><br>
-                                    <li><a class="white-text "  href="avisopriv.html">Aviso de privacidad </a></li><br>                             
-                                </h6>
+                                        <span class="card-title  grey-text text-darken-3 "> </span>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <h5 class="red-text text-darken-3 transparent">Tatuajes 2x1</h5>
+                                    </div>
+                                    <div class="card-action text">							
+                                        <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
+                                            <img src="public/img/whatsapplogo.png" width="35px">
+                                        </a>  
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col s12 m6 l6">					
+                                <div class="card  grey lighten-5">
+                                    <div class="card-image">
+                                        <a href="#">
+                                            <img class="responsive-image" src="public/img/Tatuaje-2.jpeg">	
+                                        </a>								
+                                        
+                                        <span class="card-title  grey-text text-darken-3 "></span>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <h5 class="red-text text-darken-3 transparent">PERFORACIONES GRATIS</h5>
+                                    </div>
+                                    <div class="card-action text">							
+                                        <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
+                                            <img src="public/img/whatsapplogo.png" width="35px">
+                                        </a>  
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
-                            
-                            
-                        <div class="row">
-                            <form class="col s12 m6 l6">
-                                <div class="row">
-                                    <h4 class="header white red-text text-darken-3 center">OFERTAS ESPECIALES</h4>
-                                    <h4 class="header white red-text text-darken-3 center">Registrate y recibe las mejores ofertas </h4>
-                                    <div class="input-field col s6">
-                                        <i class="material-icons prefix">account_circle</i>
-                                        <input id="icon_prefix" type="text" class="validate">
-                                        <label for="icon_prefix">Nombre</label>
+                    </div>
+                    
+                    <div class="parallax-container">
+                        <!-- parallax3 -->
+                        <div class="parallax"><img class="responsive-image" src="public/img/TATOOINDEX.jpg"></div>
+                    </div>
+                    
+                    
+                    
+                    <div class="section  black ">	
+                        <h3 class="header grey-text text-lighten-5 transparent center">NUESTROS PRODUCTOS</h3>
+                        <div class="row container">
+                            <!-- cards -->
+                            <div class="col s12 m6 l6">					
+                                <div class="card  grey lighten-5">
+                                    <div class="card-image">
+                                        <a href="atari.html">
+                                            <img class="responsive-image" src="public/img/Tatuaje-10.jpeg">	
+                                        </a>								
+                                        
+                                        <span class="card-title  grey-text text-darken-3 "></span>
+                                        
                                     </div>
-                                    <div class="input-field col s6">
-                                        <i class="material-icons prefix">email</i>
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email">E-mail</label>
-                                        <span class="helper-text" data-error="error" data-success="perfecto"></span>
+                                    <div class="card-content">
+                                        <h5 class="red-text text-darken-3 transparent">DISEÑOS</h5>
+                                    </div>
+                                    <div class="card-action text">							
+                                        <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=5526621604&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
+                                            <img src="public/img/whatsapplogo.png" width="35px">
+                                        </a>  
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>                                
+                            <!-- cards -->
+                            <div class="col s12 m6 l6">					
+                                <div class="card  grey lighten-5">
+                                    <div class="card-image">
+                                        <a href="atari.html">
+                                            <img class="responsive-image" src="public/img/Tatuaje-14.jpeg">	
+                                        </a>								
+                                        
+                                        <span class="card-title  grey-text text-darken-3 "></span>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <h5 class="red-text text-darken-3 transparent">PERFORACIONES</h5>
+                                    </div>
+                                    <div class="card-action text">							
+                                        <a class="grey-text text-darken-4" href="https://api.whatsapp.com/send?phone=525531910017&text=Hola!%20Me%20Interesa%20Comprar%20..." target="_blank">
+                                            <img src="public/img/whatsapplogo.png" width="35px">
+                                        </a>  
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>                                
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="parallax-container">
+                        <!-- parallax2 -->
+                        <div class="parallax"><img class="responsive-images" src="public/img/index3.jpg"></div>
+                    </div>
+                    
+                    
+                    
+                    <div class="section red darken-3">
+                        <!-- ofertas Especiales -->
+                        <h2 class="header   grey-text text-lighten-5 transparent center" id="tiendas">CONOCE NUESTRA TIENDA  </h2>	 
+                    </div>
+                    
+                    
+                    
+                    <div class="row container-fluid grey darken-3">
+                        <div class="col s12 m6 l4">
+                            
+                            <ul class="center">
+                                
+                                <a href="sucursalespericoapa.html" class="waves-effect waves-light btn red darken-3"><i class="material-icons left">location_on</i>AJUSCO</a>
+                                <br>
+                               
+                            </ul>
+                        </div>
+                        
+                        <div class="col s12 m6 l4 center">
+                            <h5 class="grey-text text-lighten-5"> Redes Sociales</h5>
+                            <ul>
+                                <div class="fb-like" data-href="https://www.facebook.com/Eztli-Tekuan-Tatuajes-y-Perforaciones-110949270652704" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                                <a href="https://www.instagram.com/eztli_tekuan_tattoo/?hl=es-la" target="_blank" ><img src="public/img/insta.png" width="50" ></a>
+                                <a href="" target="_blank" ><img src="public/img/logo_tiktok.jpg" width="50" >
+                                    
+                                    
+                               
+                            </ul>
+                            </div> 
+                            
+                            <div class="col s12 m6 l4 center ">
+                                <h5 class="grey-text text-lighten-5"> Formas De Pago</h5>
+                                <ul>
+                                    <img src="public/img/Visa_pago.jpg" width="50">
+                                    <img src="public/img/master_pago.jpg" width="50">
+                                   
+                                    <img src="public/img/mercado_pago.jpg" width="50">
+                                    <img src="public/img/cash_pago.png" width="50">
+                                    
+                                </ul>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    
+                    
+                   
+                    
+                    
+                </main>
+                
+                <!-- footer -->
+                <footer class="page-footer mg-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col s6 m3 l3 "> 
+                                <h4 class="white-text"> Acerca de Eztli Tekuan</h4>
+                                
+                                <h6 class="white-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa odit illum quam voluptatem molestiae fugit inventore, dolorum aperiam soluta tenetur aut, delectus adipisci blanditiis expedita doloremque earum placeat eos.</h6>
+                                </div>							
+                                <div class="col s6 m3 l3">
+                                    <div>
+                                        <h4 class=""> Información</h4>
+                                        <h6 > 
                                             
-                                        <!-- Modal Trigger -->
-                                        <a id = "submit" class="waves-effect waves-light btn modal-trigger" href="#modal1">Enviar<i class="material-icons right">send</i></a>                                                        
-                                            
-                                        <!-- Modal Structure -->
-                                        <div id="modal1" class="modal">
-                                            <div class="modal-content">
-                                                <h4
-                                                >¡Hecho!</h4>
-                                                <p class="black">Revisa tu correo y usa tu nuevo codigo de descuento para comprar tus videojuegos favoritos</p>
+                                            <li><a class="white-text "  href="nosotros.html">Nosotros </a></li>	<br>							
+                                            <li><a class="white-text "  href="preguntas.html">Preguntas Frecuentes </a></li><br>
+                                            <li><a class="white-text "  href="terminos.html">Términos y Condiciones </a></li><br>
+                                            <li><a class="white-text "  href="avisopriv.html">Aviso de privacidad </a></li><br>                             
+                                        </h6>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="row">
+                                    <form class="col s12 m6 l6">
+                                        <div class="row">
+                                            <h4 class="header white red-text text-darken-3 center">OFERTAS ESPECIALES</h4>
+                                            <h4 class="header white red-text text-darken-3 center">Registrate y recibe las mejores ofertas </h4>
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">account_circle</i>
+                                                <input id="icon_prefix" type="text" class="validate">
+                                                <label for="icon_prefix">Nombre</label>
                                             </div>
-                                            <div class="modal-footer">
-                                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+                                            <div class="input-field col s6">
+                                                <i class="material-icons prefix">email</i>
+                                                <input id="email" type="email" class="validate">
+                                                <label for="email">E-mail</label>
+                                                <span class="helper-text" data-error="error" data-success="perfecto"></span>
+                                                
+                                                <!-- Modal Trigger -->
+                                                <a id = "submit" class="waves-effect waves-light btn modal-trigger" href="#modal1">Enviar<i class="material-icons right">send</i></a>                                                        
+                                                
+                                                <!-- Modal Structure -->
+                                                <div id="modal1" class="modal">
+                                                    <div class="modal-content">
+                                                        <h4
+                                                        >¡Hecho!</h4>
+                                                        <p class="black">Revisa tu correo y usa tu nuevo codigo de descuento para comprar tus videojuegos favoritos</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </form>
+                                </div>                   
+                            </div>                       
+                            <div class="footer-copyright black">
+                                <div class="container ">
+                                    © 2020 Copyright Text
+                                    
                                 </div>
-                            </form>
-                        </div>                   
-                    </div>                       
-                    <div class="footer-copyright black">
-                        <div class="container ">
-                            © 2020 Copyright Text
-                            
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </footer>
-        </body>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
-            <script src= "public/js/materialize.min.js"></script>
-            <script src="public/js/app.js"></script>
-            <script>
-                $(document).ready(function(){
-                    var user,email
-                    $("#submit").click(function(){
-                        user=$("#icon_prefix").val();
-                        email=$("#email").val();
-                        $.post("http://localhost:3000/",{user: user,email: email}, function(data){
-                            if(data==='done')
-                            {
-                                alert("Listo. Revisa tu bandeja de correo");
-                            }
+                    </footer>
+                </body>
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+                <script src= "public/js/materialize.min.js"></script>
+                <script src="public/js/app.js"></script>
+                <script>
+                    $(document).ready(function(){
+                        var user,email
+                        $("#submit").click(function(){
+                            user=$("#icon_prefix").val();
+                            email=$("#email").val();
+                            $.post("http://localhost:3000/",{user: user,email: email}, function(data){
+                                if(data==='done')
+                                {
+                                    alert("Listo. Revisa tu bandeja de correo");
+                                }
+                            });
                         });
                     });
-                });
-            </script>
-            <script src="https://apis.google.com/js/platform.js"></script>
-            <script src="https://apis.google.com/js/platform.js"></script>
-            <div id="fb-root"></div>
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script>
-            <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
-            </html>
+                </script>
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script>
+                <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
+                </html>
